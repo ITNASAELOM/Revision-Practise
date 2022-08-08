@@ -1,0 +1,398 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section.home{
+    background-image: url(1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    background-size: cover;
+    color: white;
+}
+
+.header{
+    display: flex;
+    height: 10vh;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.logo i{
+    font-size: 35px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+.menu h1{
+    margin-right: 10%;
+}
+
+.menu i{
+    font-size: 30px;
+}
+
+.home-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    flex-direction: column;
+}
+
+.home-main button{
+    padding: 12px 50px;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    border: 2px solid white;
+}
+
+.home-main p{
+    margin-top: 15px;
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+.home-main h2{
+    font-size: 30px;
+}
+
+.home hr{
+    margin: 0 auto;
+    width: 90%;
+}
+
+section.about{
+    text-align: center;
+    height: 500px;
+    padding: 80px 0;
+}
+
+.about h1{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.about hr{
+    width: 4%;
+    margin: 50px auto;
+    background-color: mediumseagreen;
+    padding: 2px;
+}
+
+.about p{
+    width: 50%;
+    margin: 0 auto;
+    font-size: 22px;
+}
+
+.about img{
+    width: 150px;
+    margin: 40px auto;
+}
+
+.about p:nth-of-type(1){
+    font-family: 'Playball', cursive;
+}
+
+section.wedo{
+    padding: 100px 0;
+}
+
+.wedo-text{
+    text-align: center;
+}
+
+.wedo-text hr{
+    width: 40px;
+    margin: 30px auto;
+    background-color: green;
+    height: 5px;
+}
+
+.wedo-text h1{
+    text-transform: uppercase;
+}
+
+.cards{
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.card{
+    width: 29%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card hr{
+    width: 50px;
+    height: 4px;
+    background-color: green;
+    margin-bottom: 20px;
+}
+
+.icons{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons i{
+    font-size: 30px;
+    color: white;
+}
+
+.card h2{
+    margin: 20px 0;
+}
+
+.responsive{
+    height: 500px;
+    display: flex;
+    width: 100%;
+}
+
+.left{
+    background-image: url(2.jpg);
+    height: 500px;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.right{
+    width: 50%;
+    padding: 100px 0;
+}
+
+.responsive-text h2{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.responsive-text hr{
+    width: 40px;
+    height: 5px;
+    background-color: green;
+    margin: 0 auto;
+}
+
+.right p{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 60px;
+    line-height: 24px;
+}
+
+.list li{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: green;
+    list-style: none;
+}
+
+.list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.list li:nth-of-type(2){
+    width: 8px;
+    height: 8px;
+    margin-left: 4px;
+}
+
+section.interface{
+    height: 400px;
+    background-image: url(3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.interface i{
+    font-size: 40px;
+}
+
+.interface p:nth-of-type(1){
+    font-size: 22px;
+    font-family: sans-serif;
+    margin-top: 25px;
+}
+
+.interface i:nth-of-type(2){
+    margin-top: 25px;
+}
+
+section.work{
+    padding: 100px 0;
+}
+
+.work-text{
+    text-align: center;
+}
+
+.work-text hr{
+    width: 40px;
+    margin: 30px auto;
+    height: 5px;
+    background-color: mediumseagreen;
+}
+
+.work-text h2{
+    text-transform: uppercase;
+}
+
+.work-cards{
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.work-card{
+    box-shadow: 0 0 10px grey;
+    width: 29%;
+    height: 380px;
+}
+
+.work-img{
+    height: 180px;
+    background-image: url(4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.work-footer{
+    text-align: center;
+    padding: 20px;
+}
+
+.work-footer hr{
+    width: 50px;
+    margin: 20px auto;
+    background-color: mediumseagreen;
+    height: 3px;
+}
+
+.work-footer p{
+    color: grey;
+    font-family: 'Playball', cursive;
+}
+
+.work-list{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 40px;
+    align-items: center;
+}
+
+.work-list li{
+    height: 8px;
+    width: 8px;
+    background-color: green;
+    border-radius: 50%;
+}
+
+.work-list li:nth-of-type(1){
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+}
+
+section.wather{
+    height: 400px;
+    background-image: url(5.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+.wather-text{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 400px;
+}
+
+.wather-text p:nth-of-type(1){
+   margin-right: 30px;
+   font-size: 50px;
+   font-family: 'Playball', cursive;
+}
+
+.wather-text p:nth-of-type(2){
+    font-size: 50px;
+    margin-left: 30px;
+    font-family: 'Playball', cursive;
+}
+
+.wather-icons{
+    font-size: 30px;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
